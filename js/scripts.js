@@ -5,8 +5,7 @@ $(document).ready(function(){
   var surnames = ['Borovsky', 'Burnette', 'Frost', 'Gupta', 'Kedia', 'Thimbleby', 'Neuenschwander', 'Abbott', 'Desai', 'Marble', 'Ullal', 'Lynch', 'Arney', 'Rica', 'Cason', 'Dakin', 'Prescott', 'Wolfman-Estrada', 'Lin', 'Ternus', 'Novielli', 'Kaloty', 'Bose', 'O’Leary', 'Delgado', 'Srouji', 'Metz', 'Broms', 'Haldea', 'Garten', 'Shaffer', 'Chen', 'Ionascu', 'Carr', 'Gonzalez', 'Ranka', 'De Coteau', 'Sinunu', 'Duplessis', 'Huval', 'Li', 'Rothkopf', 'Raspe', 'Sherwood', 'Cetinok', 'Dadbhawala', 'Kabbara', 'Munsterteiger', 'Trudel', 'Akkinepalli', 'Joshi', 'Gupta', 'Singh', 'Schulner', 'Wei', 'Sabas', 'McCormack', 'Schwekutsch', 'Freitag', 'McLean', 'Haithcox', 'Sequoia', 'Smoley', 'Chaarawi', 'Das', 'Sample', 'Tappeiner', 'Bauerlein', 'Schweigler'];
 
 $('#generate').on('click', function(){
-  console.log("oui");
-
+  
   var name = names[Math.floor(Math.random()*names.length)];
   var surname = surnames[Math.floor(Math.random()*surnames.length)];
 

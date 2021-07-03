@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "SanFrancisco";
+  src: url("../assets/sanfranciscodisplaymedium.ttf");
+}
+
+body {
+height: auto;
+margin:64px;
+padding:0;
+}
+
+h1, span, button{
+  font-family: "SanFrancisco";
+  color: black;
+}
+
+span{
+  font-size: 24pt;
+}
+
+button{
+  border: none;
+  font-size: 16pt;
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #D4D4D4;
+}
